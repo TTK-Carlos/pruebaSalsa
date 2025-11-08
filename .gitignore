@@ -1,0 +1,14 @@
+# Python / venv
+venv/
+__pycache__/
+*.pyc
+
+# Azure Functions local
+.localsettings.json
+local.settings.json
+
+# GitHub / IDE
+.git/
+.github/
+.vscode/
+.idea/

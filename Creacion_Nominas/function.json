@@ -1,4 +1,3 @@
-
 {
   "scriptFile": "__init__.py",
   "bindings": [
@@ -7,7 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [ "post" ]
+      "methods": ["post", "get"]
     },
     {
       "type": "http",

@@ -97,7 +97,7 @@ def process(records, start_date, end_date, tz='Europe/Madrid', selected_worker=N
     rows = []
     for r in records:
         try:
-            f = local_date(r.get('fecha'), tz)
+            f = local_date(r.get('FECHA'), tz)
         except Exception:
             continue
         if not (start <= f <= end):
